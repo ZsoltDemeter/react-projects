@@ -1,10 +1,18 @@
 import "./App.css";
+import Header from "./components/Header";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Education from "./pages/Education";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="app">
-      <h1>component1</h1>
-      <h2>component2</h2>
+      <Header />
+      <Home />
+      <About />
+      <Education />
+      <Contact />
     </div>
   );
 }
