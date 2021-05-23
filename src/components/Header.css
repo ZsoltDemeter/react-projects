@@ -1,0 +1,124 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 75px;
+  background-color: var(--color4);
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  font-family: "Lato", sans-serif;
+  z-index: 1;
+  color: var(--color1);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: none;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-link {
+  color: var(--color1);
+  cursor: pointer;
+  border-top: 2px solid var(--color4);
+  padding-bottom: 15px;
+}
+
+.active {
+  border-top: 2px solid black;
+}
+
+/* .nav-links > a:hover {
+    border-top: 2px solid black;
+  } */
+
+.hamburger {
+  display: none;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.hamburger-icon > span {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color1);
+  transform-origin: left;
+  transition: all 0.7s ease;
+}
+
+.line1-transform {
+  transform: rotate(45deg);
+}
+.line2-transform {
+  opacity: 0;
+}
+.line3-transform {
+  transform: rotate(-45deg);
+}
+
+.nav-menu-items li {
+  font-size: 17px;
+}
+
+.nav-menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+  padding: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+  .hamburger {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translate(-55%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .nav-menu-items {
+    position: fixed;
+    top: 45px;
+    right: -100%;
+    display: block;
+    background-color: var(--color4);
+    width: 125px;
+    padding: 0;
+    border-radius: 10px;
+  }
+
+  .nav-menu-items.show {
+    right: 0;
+    transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+  .header h1 {
+    display: none;
+  }
+  .nav-menu-items {
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+}
