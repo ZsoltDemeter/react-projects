@@ -7,7 +7,7 @@ const Header = () => {
   const [showNav, setShowNav] = useState(false);
   return (
     <div className="header">
-      <h1>Zsolt Demeter</h1>
+      <h1 className="logo">zsolt.</h1>
       <div className="hamburger">
         <div className="hamburger-icon" onClick={() => setShowNav(!showNav)}>
           <span className={showNav ? "line1-transform" : ""}></span>
@@ -30,7 +30,7 @@ const Header = () => {
                 to={item.path}
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={650}
               >
                 {item.title}

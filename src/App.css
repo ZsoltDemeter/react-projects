@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -16,22 +16,14 @@
 }
 
 :root {
-  --color1: #f4f3ee;
-  --color2: #3d5a80;
-  --color3: #98c1d9;
-  --color4: #8a817c;
-  --color5: #ee6c4d;
+  --header-color: #f4a261;
+  --secondary-color: #f1faee;
 }
 
-.home-section {
-  height: 100vh;
-  background-color: whitesmoke;
+body {
+  font-family: "Padauk", sans-serif;
 }
-.about-section {
+
+.app {
   height: 100vh;
-  background-color: ivory;
-}
-.education-section {
-  height: 100vh;
-  background-color: floralwhite;
 }
