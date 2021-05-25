@@ -17,13 +17,19 @@
 
 :root {
   --header-color: #f4a261;
-  --secondary-color: #f1faee;
+  --footer-color: #264653;
+  --header-height: 75px;
+  --footer-height: 65px;
 }
 
 body {
   font-family: "Padauk", sans-serif;
 }
 
-.app {
+/* .app {
   height: 100vh;
+} */
+
+.active {
+  border-top: 2px solid black;
 }

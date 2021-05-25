@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100vw;
-  height: 75px;
+  height: var(--header-height);
   background-color: var(--header-color);
   flex-wrap: wrap;
 }
@@ -13,6 +13,7 @@
 .logo {
   z-index: 1;
   margin: 0 0 10px 10px;
+  font-size: 25px;
 }
 
 .nav-links {
@@ -90,7 +91,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    transform: translate(-55%, 75%);
+    transform: translate(-55%, 100%);
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -108,6 +109,11 @@
   .nav-menu-items.show {
     right: 0;
     transition: 250ms;
+  }
+
+  .logo {
+    padding-top: 15px;
+    padding-left: 15px;
   }
 }
 

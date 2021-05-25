@@ -7,13 +7,13 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="app">
+    <>
       <Header />
       <Home />
       <About />
       <Education />
       <Contact />
-    </div>
+    </>
   );
 }
 
