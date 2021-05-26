@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <Particles params={DefaultParticles} />
       <div className="home-section" id="home">
-        <h1>Hello..</h1>
+        <h1>Hello,</h1>
       </div>
     </>
   );
