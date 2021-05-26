@@ -1,0 +1,21 @@
+.logo-component {
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 75px;
+}
+
+.logo-component > h1 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: 600;
+  display: flex;
+  padding: none;
+}

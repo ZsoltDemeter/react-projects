@@ -2,13 +2,15 @@ import "./Header.css";
 import { Link } from "react-scroll";
 import { PagesData } from "./PagesData";
 import React, { useState } from "react";
+import Logo from "./Logo";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
-  const logoName = ".zsolt{demeter}";
+  // const logoName = ".zsolt{demeter}";
   return (
     <div className="header">
-      <h1 className="logo">{logoName}</h1>
+      <Logo />
+      {/* <h1 className="logo">{logoName}</h1> */}
       <div className="hamburger">
         <div className="hamburger-icon" onClick={() => setShowNav(!showNav)}>
           <span className={showNav ? "line1-transform" : ""}></span>
