@@ -1,11 +1,12 @@
 .contact-section {
-  height: calc(100vh - var(--header-height));
+  height: calc(100vh - var(--header-height) - var(--footer-height));
   width: 100%;
   background-color: rgb(255, 255, 255, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 75px;
 }
 
 .contact-section > input,
