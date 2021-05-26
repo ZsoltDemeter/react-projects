@@ -17,7 +17,10 @@
 
 :root {
   --header-color: #f4a261;
+  /* --header-color: #fca311; */
+  --header-text-color: black;
   --footer-color: #264653;
+  /* --footer-color: #14213d; */
   --header-height: 75px;
   --footer-height: 65px;
 }
@@ -32,4 +35,11 @@ body {
 
 .active {
   border-top: 2px solid black;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
 }

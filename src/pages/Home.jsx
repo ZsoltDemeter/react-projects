@@ -1,12 +1,15 @@
 import "./Home.css";
-import React from "react";
+import Particles from "react-particles-js";
+import { DefaultParticles } from "../components/PagesData";
 
 const Home = () => {
   return (
-    <div className="home-section" id="home">
-      <h1>home</h1>
-      <h2>Content here...</h2>
-    </div>
+    <>
+      <Particles params={DefaultParticles} />
+      <div className="home-section" id="home">
+        <h1>Hello..</h1>
+      </div>
+    </>
   );
 };
 

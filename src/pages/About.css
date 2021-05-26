@@ -1,5 +1,54 @@
 .about-section {
   height: calc(100vh - var(--header-height));
   width: 100%;
-  background-color: ivory;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-section > img {
+  width: 50vw;
+  height: 70vh;
+  border: 3px solid gray;
+  border-radius: 50%;
+}
+
+.about-section > p {
+  width: 40vw;
+  font-size: 20px;
+  text-align: center;
+}
+
+.about-section > h2 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    height: 100vh;
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-section > img {
+    width: 80vw;
+    height: 25vh;
+    border: 1px solid gray;
+  }
+
+  .about-section > h2 {
+    padding-bottom: 25px;
+    display: block;
+  }
+
+  .about-section > p {
+    font-size: 15px;
+    width: 100vw;
+    height: 160px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
 }

@@ -2,9 +2,16 @@
   padding-top: 75px;
   height: calc(100vh - var(--header-height));
   width: 100%;
-  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
+  /* background-color: var(--footer-color); */
+  background-color: #495057;
+}
+
+.home-section > h1 {
+  color: white;
+  font-size: 50px;
 }

@@ -11,6 +11,7 @@
 .logo-component > h1 {
   font-size: 23px;
   font-weight: 600;
+  color: var(--header-text-color);
 }
 
 .logo {
@@ -18,4 +19,11 @@
   font-weight: 600;
   display: flex;
   padding: none;
+  color: var(--header-text-color);
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+  .logo-component {
+    display: none;
+  }
 }
