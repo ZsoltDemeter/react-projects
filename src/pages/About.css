@@ -16,15 +16,16 @@
 
 .about-section > p {
   width: 40vw;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
+  font-weight: 550;
 }
 
 .about-section > h2 {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 420px) {
   .about-section {
     height: 100vh;
     box-sizing: border-box;
@@ -41,14 +42,58 @@
 
   .about-section > h2 {
     padding-bottom: 25px;
+    padding-top: 25px;
     display: block;
   }
 
   .about-section > p {
-    font-size: 15px;
+    font-size: 16px;
     width: 100vw;
     height: 160px;
     text-align: center;
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 560px) {
+  .about-section > p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 420px) {
+  .about-section > p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 420px) {
+  .about-section > p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  .about-section > p {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 1200px) {
+  .about-section > img {
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 95vw;
+    opacity: 0.3;
+  }
+
+  .about-section > p {
+    z-index: 99;
+    color: black;
+    width: 80vw;
+    font-weight: 800;
   }
 }

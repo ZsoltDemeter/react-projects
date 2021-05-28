@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { SiFacebook, SiLinkedin } from "react-icons/si";
+import { SiFacebook, SiLinkedin, SiGithub } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -21,6 +21,13 @@ const Footer = () => {
           rel="noreferrer"
         >
           <SiLinkedin />
+        </a>
+        <a
+          href="https://github.com/ZsoltDemeter"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <SiGithub />
         </a>
       </nav>
     </div>
