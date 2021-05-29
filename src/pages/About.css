@@ -25,75 +25,83 @@
   display: none;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 250px) and (max-width: 374px) {
   .about-section {
     height: 100vh;
     box-sizing: border-box;
-    display: block;
-    align-items: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
-
-  .about-section > img {
-    width: 80vw;
-    height: 25vh;
-    border: 1px solid gray;
-  }
-
-  .about-section > h2 {
-    padding-bottom: 25px;
-    padding-top: 25px;
-    display: block;
-  }
-
-  .about-section > p {
-    font-size: 16px;
-    width: 100vw;
-    height: 160px;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-}
-
-@media screen and (min-width: 421px) and (max-width: 560px) {
-  .about-section > p {
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 420px) {
   .about-section > p {
     font-size: 17px;
+    width: 90vw;
+  }
+  .about-section > h2 {
+    display: block;
+  }
+  .about-section > img {
+    height: 150px;
+    width: 70vw;
   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 420px) {
-  .about-section > p {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 18px;
+  .about-section {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-}
-
-@media screen and (min-width: 900px) and (max-width: 1199px) {
   .about-section > p {
-    font-size: 35px;
+    font-size: 17px;
+    width: 90vw;
   }
-}
-
-@media screen and (min-width: 421px) and (max-width: 1200px) {
+  .about-section > h2 {
+    display: block;
+  }
   .about-section > img {
+    height: 180px;
+    width: 70vw;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 740px) {
+  .about-section {
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  .about-section > p {
+    width: 70vw;
+    z-index: 99;
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  .about-section > img {
+    height: 480px;
+    width: 90vw;
     position: absolute;
-    top: 5;
-    left: 0;
-    width: 95vw;
+    opacity: 0.3;
+  }
+}
+
+@media screen and (min-width: 741px) and (max-width: 1024px) {
+  .about-section {
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  .about-section > img {
+    height: 580px;
+    width: 85vw;
+    position: absolute;
     opacity: 0.3;
   }
 
   .about-section > p {
+    width: 70vw;
     z-index: 99;
-    color: black;
-    width: 80vw;
-    font-weight: 800;
+    font-size: 26px;
+    font-weight: 600;
   }
 }
