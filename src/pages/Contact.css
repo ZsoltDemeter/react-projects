@@ -50,8 +50,27 @@ textarea:focus {
   outline: none;
 }
 
-.error {
-  border-bottom: 1px solid red;
+.message {
+  margin-top: 15px;
+  border: 1px solid lightgray;
+  height: auto;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: white;
+}
+
+#X {
+  font-size: 15px;
+  border: transparent;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  cursor: pointer;
 }
 
 .contact-section > button {
@@ -102,5 +121,11 @@ textarea:focus {
 
   .wrapper > img {
     display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .message {
+    width: 80vw;
   }
 }
