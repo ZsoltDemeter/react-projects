@@ -80,21 +80,6 @@ const Contact = () => {
     return errors;
   }
 
-  const onClick = (e) => {
-    e.preventDefault();
-
-    setHideMessage(false);
-
-    errorCheck();
-
-    if (errors.length === 0) {
-      setName("");
-      setPhoneNumber("");
-      setEmail("");
-      setMessage("");
-    }
-  };
-
   const sendEmail = (e) => {
     e.preventDefault();
     setHideMessage(false);
