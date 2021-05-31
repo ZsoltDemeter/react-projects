@@ -10,7 +10,7 @@ const About = () => {
         about programming and especially web development. I spend most of my
         free time challenging myself to improve in the field, by learning new
         technologies, solving puzzles and doing exercises. My goal is to become
-        a full-stack web-developer in the next 3 to 5 years.
+        a full-stack web-developer in upcomming future.
       </p>
       <img src={codingSpace} alt={"Loading..."} />
     </div>

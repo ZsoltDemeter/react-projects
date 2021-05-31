@@ -54,7 +54,7 @@ const Contact = () => {
     const errors = [];
 
     if (name.length === 0) {
-      errors.push("Name can't be empty");
+      errors.push("Name can not be empty");
     }
 
     if (phoneNumber.length < 6) {
