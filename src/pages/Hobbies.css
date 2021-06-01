@@ -19,11 +19,6 @@
     font-size: 17px;
   }
 }
-/* @media screen and (min-width: 375px) and (max-width: 420px) {
-  .hobbies-section > p {
-    font-size: 21px;
-  }
-} */
 
 @media screen and (min-width: 421px) and (max-width: 740px) {
   .hobbies-section > p {
