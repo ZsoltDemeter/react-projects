@@ -13,6 +13,11 @@
   color: #fff;
   padding-right: 15px;
 }
+@media screen and (min-width: 250px) and (max-width: 374px) {
+  #footer-email {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 768px) {
   #phone {

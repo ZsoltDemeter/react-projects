@@ -22,7 +22,7 @@
   color: var(--header-text-color);
 }
 
-@media screen and (max-width: 900px) and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .logo-component {
     display: none;
   }

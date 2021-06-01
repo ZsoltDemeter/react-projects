@@ -4,11 +4,11 @@ import { EducationData } from "../components/PagesData";
 const Education = () => {
   return (
     <div className="education-section" id="education">
-      <img src={educationImg} alt="Loading.." />
       <ul>
         {EducationData.map((item, index) => {
           return (
             <a
+              key={index}
               href={item.href}
               target="_blank"
               rel="noreferrer"
@@ -25,6 +25,7 @@ const Education = () => {
           );
         })}
       </ul>
+      <img src={educationImg} alt="Loading.." />
     </div>
   );
 };

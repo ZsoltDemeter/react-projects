@@ -17,10 +17,8 @@
 
 :root {
   --header-color: #f4a261;
-  /* --header-color: #fca311; */
   --header-text-color: black;
   --footer-color: #264653;
-  /* --footer-color: #14213d; */
   --header-height: 75px;
   --footer-height: 65px;
 }
@@ -28,10 +26,6 @@
 body {
   font-family: "Padauk", sans-serif;
 }
-
-/* .app {
-  height: 100vh;
-} */
 
 .active {
   border-top: 2px solid black;

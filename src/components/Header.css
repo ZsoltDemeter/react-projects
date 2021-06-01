@@ -111,7 +111,7 @@
   }
 }
 
-@media screen and (max-width: 900px) and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .nav-menu-items {
     width: 100vw;
     justify-content: space-evenly;

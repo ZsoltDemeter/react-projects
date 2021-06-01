@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer-section" id="contact">
       <p id="name">Demeter Zsolt</p>
       <p id="phone">0770480551</p>
-      <p>zsoltd.com@gmail.com</p>
+      <p id="footer-email">zsoltd.com@gmail.com</p>
       <nav>
         <a
           href="https://www.facebook.com/zsolt.demeter.12/"

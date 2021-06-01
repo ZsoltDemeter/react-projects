@@ -97,15 +97,19 @@ textarea:focus {
     display: block;
   }
 
+  .contact-details img {
+    height: 18px;
+  }
+
   .mail h2 {
     padding-right: 0;
+    font-size: 16px;
+  }
+  .phone h2 {
+    font-size: 16px;
   }
 
   .wrapper > img {
-    display: none;
-  }
-
-  .mail {
     display: none;
   }
 }

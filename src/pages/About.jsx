@@ -12,6 +12,7 @@ const About = () => {
         technologies, solving puzzles and doing exercises. My goal is to become
         a full-stack web-developer in upcomming future.
       </p>
+
       <img src={codingSpace} alt={"Loading..."} />
     </div>
   );
