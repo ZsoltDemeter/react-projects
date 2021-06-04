@@ -1,10 +1,9 @@
-import "./App.css";
+import Topbar from "./components/topbar/Topbar";
 
 function App() {
   return (
-    <div className="app">
-      <h1>component1</h1>
-      <h2>component2</h2>
+    <div>
+      <Topbar />
     </div>
   );
 }
