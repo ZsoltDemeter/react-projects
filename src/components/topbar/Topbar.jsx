@@ -21,6 +21,11 @@ const Topbar = () => {
           <div className="topbar-icon-container">
             <Settings />
           </div>
+          <img
+            src="https://media.planme.ro/public/images/provider/viggo-tailoring-costume-de-mire-cluj-napoca-portofolio-70941"
+            alt="Profile .."
+            className="top-avatar"
+          />
         </div>
       </div>
     </div>
