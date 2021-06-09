@@ -9,7 +9,7 @@ const FeaturedInfo = () => {
         <div className="featured-money-container">
           <span className="featured-money">$2,415</span>
           <span className="featured-money-rate">
-            -11.4 <ArrowDownward />
+            -11.4 <ArrowDownward className="featured-icon negative" />
           </span>
         </div>
         <span className="featured-sub">Compare to last month</span>
@@ -19,7 +19,7 @@ const FeaturedInfo = () => {
         <div className="featured-money-container">
           <span className="featured-money">$4,615</span>
           <span className="featured-money-rate">
-            -2.7 <ArrowDownward />
+            -2.7 <ArrowDownward className="featured-icon negative" />
           </span>
         </div>
         <span className="featured-sub">Compare to last month</span>
@@ -29,7 +29,7 @@ const FeaturedInfo = () => {
         <div className="featured-money-container">
           <span className="featured-money">$1,321</span>
           <span className="featured-money-rate">
-            1.4 <ArrowUpward />
+            1.4 <ArrowUpward className="featured-icon" />
           </span>
         </div>
         <span className="featured-sub">Compare to last month</span>
