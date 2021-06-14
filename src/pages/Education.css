@@ -35,7 +35,20 @@
   box-shadow: -3px 3px 50px 5px #000000;
 }
 
-@media screen and (min-width: 50px) and (max-width: 567px) {
+@media screen and (min-width: 0) and (max-width: 320px) {
+  .education-data > h2,
+  h3 {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 567px) {
+  .education-data > h2,
+  h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 567px) {
   .education-section > img {
     position: absolute;
     opacity: 0.2;
@@ -51,10 +64,6 @@
   }
   .education-data:hover {
     background-color: white;
-  }
-  .education-data > h2,
-  h3 {
-    font-size: 15px;
   }
 }
 
@@ -84,8 +93,4 @@
     width: 200px;
     height: 75px;
   }  */
-  .education-data > h2,
-  h3 {
-    font-size: 20px;
-  }
 }
