@@ -27,10 +27,6 @@ body {
   font-family: "Padauk", sans-serif;
 }
 
-.active {
-  border-top: 2px solid black;
-}
-
 .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;

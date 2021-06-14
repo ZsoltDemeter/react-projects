@@ -41,3 +41,21 @@
     width: 80vw;
   }
 }
+
+@media screen and (min-height: 0) and (max-height: 380px) {
+  .hobbies-section {
+    height: 300px;
+    /* margin-top: 20px; */
+  }
+}
+@media screen and (min-height: 381px) and (max-height: 499px) {
+  .about-section {
+    height: 400px;
+  }
+}
+
+@media screen and (max-height: 680px) {
+  .hobbies-section > p {
+    font-size: 17px;
+  }
+}

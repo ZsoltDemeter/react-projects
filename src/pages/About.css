@@ -105,3 +105,37 @@
     font-weight: 600;
   }
 }
+
+@media screen and (min-height: 0) and (max-height: 310px) {
+  .about-section {
+    height: 300px;
+  }
+
+  .about-section > img {
+    height: 90vh;
+    width: 70vw;
+  }
+}
+@media screen and (min-height: 311px) and (max-height: 500px) {
+  .about-section {
+    height: 380px;
+  }
+  .about-section > img {
+    height: 90vh;
+    width: 70vw;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  /* .about-section > img {
+    height: 70vh;
+    width: 70vw;
+  } */
+
+  .about-section > p {
+    width: 50vw;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+}

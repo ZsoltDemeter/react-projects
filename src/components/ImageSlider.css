@@ -65,3 +65,10 @@
     width: 500px;
   }
 }
+
+@media screen and (max-height: 680px) {
+  .image {
+    height: 220px;
+    width: 220px;
+  }
+}

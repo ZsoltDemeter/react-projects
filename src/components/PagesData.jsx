@@ -3,7 +3,7 @@ import travelling from "../images/image2.jpg";
 import archery from "../images/image3.jpg";
 import archery2 from "../images/image3.1.jpg";
 import chess from "../images/image4.PNG";
-import chess2 from "../images/image4.1.PNG";
+// import chess2 from "../images/image4.1.PNG";
 
 export const PagesData = [
   {
@@ -80,10 +80,10 @@ export const SliderData = [
     image: chess,
     alt: "Chess image",
   },
-  {
-    image: chess2,
-    alt: "Chess image",
-  },
+  // {
+  //   image: chess2,
+  //   alt: "Chess image",
+  // },
 ];
 
 export const DefaultParticles = {
